@@ -1,11 +1,14 @@
-import { Button } from '@/components/ui/button'
-import Image from 'next/image'
+import MoviesCarousels from "@/components/MoviesCarousels"
 
 export default function Home() {
   return (
-    <main className=''>
-   <h1>Lets build disney</h1>
- 
+    <main className=''> 
+
+ <div className="flex flex-col space-y-2 xl-mt-48">
+  <MoviesCarousels movies={[]} title='Upcomming'/>
+    {/* <MoviesCarusousels movies= {...} title='Upcomming'/> */}
+      {/* <MoviesCarusousels movies= {...} title='Upcomming'/> */}
+ </div>
     </main>
   )
 }

@@ -11,7 +11,7 @@ genre:string;
 const GenrePage = ({params: {id}, searchParams: {genre}} : Props) => {
 
   return (
-    <div>GenrePage: {id} and {genre}
+    <div>
     
     </div>
   )
