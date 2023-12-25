@@ -1,8 +1,6 @@
 import MoviesCarousels from "@/components/MoviesCarousels"
 import { moviesData } from "./data/Categories"
-type movies= {
-movies:movies[]
-} 
+
 export default function Home() {
   return (
     <main className=''> 

@@ -1,5 +1,10 @@
 import { Movie } from "@/typings";
 import Image from "next/image";
+import { string } from "zod";
+
+type movie={
+  movie:Movie
+}
 
 const MovieCard = ({ movie }: { movie: Movie }) => {
   return (
