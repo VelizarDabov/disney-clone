@@ -19,7 +19,7 @@ export const moviesData = [
     {
      
       Action: [
-        { id: 1, name: "Dune", image:'https://www.google.com/url?sa=i&url=https%3A%2F%2Fpiedmontroar.com%2F9574%2Fsliderposts%2Fdune-movie-review-the-importance-of-dreams%2F&psig=AOvVaw2QlGTDUFXOpBekDq5M6h9U&ust=1703256542471000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOjpq6bjoIMDFQAAAAAdAAAAABAD'  },
+        { id: 1, name: "Dune", image:'https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/819EiiDWtvL._AC_UF1000,1000_QL80_.jpg'  },
         { id: 2, name: "The Batman", image:'https://images.thedirect.com/media/article_full/the-batman-reviews.jpg' },
         { id: 3, name: "Spider-Man: No Way Home", image:'https://images.thedirect.com/media/article_full/spider-man-no-way-home-art-collection.jpg' },
         { id: 4, name: "Black Adam", image:'https://m.media-amazon.com/images/M/MV5BYzZkOGUwMzMtMTgyNS00YjFlLTg5NzYtZTE3Y2E5YTA5NWIyXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg' },

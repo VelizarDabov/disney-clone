@@ -1,13 +1,16 @@
 import React from 'react'
 import CarouselBanner from './CarouselBanner';
+import { Movie } from '@/typings';
 type Props={
   id?:string;
   keywords?:string;
+  movies: Movie[];
 }
-const CarouselBannerWrapper = () => {
+const CarouselBannerWrapper = ({ movies, id, keywords }: Props) => {
+  
   return (
 
-<CarouselBanner />
+<CarouselBanner movies={movies}/>
  
   )
 }
