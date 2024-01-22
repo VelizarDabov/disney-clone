@@ -8,10 +8,14 @@ type Props = {
   movies?: Movie[];
  name:string;
 };
+type movie = {
+  id:string;
+name:string;
 
+}
 const MoviesCarousels = ({ name, isVertical }: Props) => {
 
-  const categories = Array.from(new Set(moviesData.map((movie) => movie.id)));
+  // const categories = Array.from(new Set(moviesData.map((movie) => movie.id)));
 
   return (
    
@@ -24,7 +28,7 @@ const MoviesCarousels = ({ name, isVertical }: Props) => {
           <div key={genre} className="mb-4">
             <h3>{genre}</h3>
             <div className={cn("flex space-x-4 overflow-scroll px-5 lg:px-10 py-5 scrollbar-hide", isVertical && 'flex-col space-x-0 space-y-12')}>
-              {movies.map((movie:object) => (
+              {movies.map((movie:movie) => (
                 <div key={movie.id} className="">
                   <MovieCard key={movie.id} movie={movie} title={movie.name} />
                 </div>
